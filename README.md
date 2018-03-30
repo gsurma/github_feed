@@ -1,12 +1,12 @@
-#GitHub Feed
+# GitHub Feed
 
 iOS demo app
 
-##About
+## About
 
-Simple and visually ascetic github feed app.
+Visually simple yet powerful github feed app.
 
-##Tech stack
+## Tech stack
 
 * Swift 3.2
 * VIPER architecture
@@ -14,3 +14,4 @@ Simple and visually ascetic github feed app.
 * Repository Design Pattern
 * Moya
 * Cuckoo
+* Alamofire
