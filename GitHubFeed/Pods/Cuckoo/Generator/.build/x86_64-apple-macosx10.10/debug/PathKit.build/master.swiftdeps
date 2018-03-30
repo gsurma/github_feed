@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
-options: "85957612da83b13cb3bcf7cb1b463f37"
-build_time: [1508339837, 797889000]
-inputs:
-  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/PathKit.git--1865447967743163058/Sources/PathKit.swift": [1508339824, 0]

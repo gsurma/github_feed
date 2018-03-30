@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-pushd Generator
-rm -rf .build
-env -i PATH="$PATH" HOME="$HOME" swift build
-popd
