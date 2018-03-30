@@ -1,0 +1,13 @@
+excluded: 
+  - Pods
+  - "./GitHubFeedUnitTests/GeneratedMocks.swift"
+
+disabled_rules:
+  - line_length
+  - force_cast
+  - identifier_name
+  - trailing_whitespace
+
+file_length:
+  warning: 1000 
+

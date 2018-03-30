@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReadableWritableStringEncoding"
+provides-nominal:
+- "SS"
+provides-member:
+- ["SS", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FileKitError"
+- "Path"
+- "ReadableWritable"
+- "ReadableWritableStringEncoding"
+- "String"
+depends-member:
+- ["s23BidirectionalCollectionP", "Encoding"]
+- !private ["s23BidirectionalCollectionP", "FileKitError"]
+- !private ["s23BidirectionalCollectionP", "ReadableWritableStringEncoding"]
+- !private ["s23BidirectionalCollectionP", "String"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "read"]
+- ["s23BidirectionalCollectionP", "write"]
+- ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "FileKitError"]
+- !private ["s7CVarArgP", "ReadableWritableStringEncoding"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "read"]
+- ["s7CVarArgP", "write"]
+- ["s10CollectionP", "Encoding"]
+- !private ["s10CollectionP", "FileKitError"]
+- !private ["s10CollectionP", "ReadableWritableStringEncoding"]
+- !private ["s10CollectionP", "String"]
+- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "read"]
+- ["s10CollectionP", "write"]
+- ["s10ComparableP", "Encoding"]
+- !private ["s10ComparableP", "FileKitError"]
+- !private ["s10ComparableP", "ReadableWritableStringEncoding"]
+- !private ["s10ComparableP", "String"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "read"]
+- ["s10ComparableP", "write"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "FileKitError"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadableWritableStringEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "_safeRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "read"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "FileKitError"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ReadableWritableStringEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "read"]
+- ["s29CustomPlaygroundQuickLookableP", "write"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "FileKitError"]
+- !private ["s17CustomReflectableP", "ReadableWritableStringEncoding"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "read"]
+- ["s17CustomReflectableP", "write"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "FileKitError"]
+- !private ["s23CustomStringConvertibleP", "ReadableWritableStringEncoding"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_safeRawValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "readFromFileFail"]
+- ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "write"]
+- !private ["s23CustomStringConvertibleP", "writeToFileFail"]
+- ["s9DecodableP", "Encoding"]
+- !private ["s9DecodableP", "FileKitError"]
+- !private ["s9DecodableP", "ReadableWritableStringEncoding"]
+- !private ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "read"]
+- ["s9DecodableP", "write"]
+- ["s9EncodableP", "Encoding"]
+- !private ["s9EncodableP", "FileKitError"]
+- !private ["s9EncodableP", "ReadableWritableStringEncoding"]
+- !private ["s9EncodableP", "String"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "read"]
+- ["s9EncodableP", "write"]
+- ["SS10FoundationE8EncodingV", "utf8"]
+- ["s9EquatableP", "Encoding"]
+- !private ["s9EquatableP", "FileKitError"]
+- !private ["s9EquatableP", "ReadableWritableStringEncoding"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_safeRawValue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "read"]
+- ["s9EquatableP", "utf8"]
+- ["s9EquatableP", "write"]
+- !private ["s5ErrorP", "readFromFileFail"]
+- !private ["s5ErrorP", "writeToFileFail"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "FileKitError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_safeRawValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "read"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "FileKitError"]
+- !private ["s26ExpressibleByStringLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "String"]
+- !private ["s26ExpressibleByStringLiteralP", "_safeRawValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "read"]
+- ["s26ExpressibleByStringLiteralP", "write"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "FileKitError"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_safeRawValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "read"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- !private ["7FileKit0aB5ErrorO", "deinit"]
+- !private ["7FileKit0aB5ErrorO", "readFromFileFail"]
+- !private ["7FileKit0aB5ErrorO", "writeToFileFail"]
+- ["s8HashableP", "Encoding"]
+- !private ["s8HashableP", "FileKitError"]
+- !private ["s8HashableP", "ReadableWritableStringEncoding"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_safeRawValue"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "read"]
+- ["s8HashableP", "utf8"]
+- ["s8HashableP", "write"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "FileKitError"]
+- !private ["s25LosslessStringConvertibleP", "ReadableWritableStringEncoding"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "read"]
+- ["s25LosslessStringConvertibleP", "write"]
+- ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "FileKitError"]
+- !private ["s10MirrorPathP", "ReadableWritableStringEncoding"]
+- !private ["s10MirrorPathP", "String"]
+- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "read"]
+- ["s10MirrorPathP", "write"]
+- !private ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "write"]
+- !private ["So21NSItemProviderReadingP", "write"]
+- !private ["So21NSItemProviderWritingP", "write"]
+- !private ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "write"]
+- !private ["So19NSPasteboardReadingP", "write"]
+- !private ["So19NSPasteboardWritingP", "write"]
+- !private ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "deinit"]
+- !private ["So8NSStringC", "write"]
+- !private ["7FileKit4PathV", "_safeRawValue"]
+- ["s26RangeReplaceableCollectionP", "Encoding"]
+- !private ["s26RangeReplaceableCollectionP", "FileKitError"]
+- !private ["s26RangeReplaceableCollectionP", "ReadableWritableStringEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "String"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "read"]
+- ["s26RangeReplaceableCollectionP", "write"]
+- !private ["s16RawRepresentableP", "_safeRawValue"]
+- ["s16RawRepresentableP", "utf8"]
+- ["7FileKit8ReadableP", "Encoding"]
+- !private ["7FileKit8ReadableP", "FileKitError"]
+- !private ["7FileKit8ReadableP", "ReadableWritableStringEncoding"]
+- !private ["7FileKit8ReadableP", "String"]
+- !private ["7FileKit8ReadableP", "init"]
+- ["7FileKit8ReadableP", "read"]
+- ["7FileKit8ReadableP", "write"]
+- ["7FileKit8ReadableP", ""]
+- ["s8SequenceP", "Encoding"]
+- !private ["s8SequenceP", "FileKitError"]
+- !private ["s8SequenceP", "ReadableWritableStringEncoding"]
+- !private ["s8SequenceP", "String"]
+- !private ["s8SequenceP", "_safeRawValue"]
+- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "read"]
+- ["s8SequenceP", "write"]
+- ["SS", "Bool"]
+- ["SS", "Encoding"]
+- !private ["SS", "FileKitError"]
+- ["SS", "Path"]
+- !private ["SS", "ReadableWritableStringEncoding"]
+- ["SS", "String"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["SS", "read"]
+- ["SS", "write"]
+- ["s14StringProtocolP", "Encoding"]
+- !private ["s14StringProtocolP", "FileKitError"]
+- !private ["s14StringProtocolP", "ReadableWritableStringEncoding"]
+- !private ["s14StringProtocolP", "String"]
+- !private ["s14StringProtocolP", "init"]
+- ["s14StringProtocolP", "read"]
+- ["s14StringProtocolP", "write"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "FileKitError"]
+- !private ["s16TextOutputStreamP", "ReadableWritableStringEncoding"]
+- !private ["s16TextOutputStreamP", "String"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "read"]
+- ["s16TextOutputStreamP", "write"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "FileKitError"]
+- !private ["s20TextOutputStreamableP", "ReadableWritableStringEncoding"]
+- !private ["s20TextOutputStreamableP", "String"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "read"]
+- ["s20TextOutputStreamableP", "write"]
+- ["7FileKit8WritableP", "Encoding"]
+- !private ["7FileKit8WritableP", "FileKitError"]
+- !private ["7FileKit8WritableP", "ReadableWritableStringEncoding"]
+- !private ["7FileKit8WritableP", "String"]
+- !private ["7FileKit8WritableP", "init"]
+- ["7FileKit8WritableP", "read"]
+- ["7FileKit8WritableP", "write"]
+- ["7FileKit8WritableP", ""]
+- ["s23_BidirectionalIndexableP", "Encoding"]
+- !private ["s23_BidirectionalIndexableP", "FileKitError"]
+- !private ["s23_BidirectionalIndexableP", "ReadableWritableStringEncoding"]
+- !private ["s23_BidirectionalIndexableP", "String"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- ["s23_BidirectionalIndexableP", "read"]
+- ["s23_BidirectionalIndexableP", "write"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "FileKitError"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "String"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "read"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "FileKitError"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "String"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "read"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "FileKitError"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "String"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "read"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "write"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "FileKitError"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "ReadableWritableStringEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "String"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "read"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "FileKitError"]
+- !private ["s33_ExpressibleByStringInterpolationP", "ReadableWritableStringEncoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "String"]
+- !private ["s33_ExpressibleByStringInterpolationP", "_safeRawValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "read"]
+- ["s33_ExpressibleByStringInterpolationP", "write"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- ["s10_IndexableP", "Encoding"]
+- !private ["s10_IndexableP", "FileKitError"]
+- !private ["s10_IndexableP", "ReadableWritableStringEncoding"]
+- !private ["s10_IndexableP", "String"]
+- !private ["s10_IndexableP", "init"]
+- ["s10_IndexableP", "read"]
+- ["s10_IndexableP", "write"]
+- ["s14_IndexableBaseP", "Encoding"]
+- !private ["s14_IndexableBaseP", "FileKitError"]
+- !private ["s14_IndexableBaseP", "ReadableWritableStringEncoding"]
+- !private ["s14_IndexableBaseP", "String"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["s14_IndexableBaseP", "read"]
+- ["s14_IndexableBaseP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "FileKitError"]
+- !private ["s21_ObjectiveCBridgeableP", "ReadableWritableStringEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "read"]
+- ["s21_ObjectiveCBridgeableP", "write"]
+- ["s26_RangeReplaceableIndexableP", "Encoding"]
+- !private ["s26_RangeReplaceableIndexableP", "FileKitError"]
+- !private ["s26_RangeReplaceableIndexableP", "ReadableWritableStringEncoding"]
+- !private ["s26_RangeReplaceableIndexableP", "String"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "read"]
+- ["s26_RangeReplaceableIndexableP", "write"]
+- ["s16_SwiftStringViewP", "Encoding"]
+- !private ["s16_SwiftStringViewP", "FileKitError"]
+- !private ["s16_SwiftStringViewP", "ReadableWritableStringEncoding"]
+- !private ["s16_SwiftStringViewP", "String"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "read"]
+- ["s16_SwiftStringViewP", "write"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7FileKit0aB5ErrorO"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7FileKit4PathV"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "7FileKit8ReadableP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7FileKit8WritableP"
+- "s23_BidirectionalIndexableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+interface-hash: "3048e86ae24782c58cef3d1512e33c70"

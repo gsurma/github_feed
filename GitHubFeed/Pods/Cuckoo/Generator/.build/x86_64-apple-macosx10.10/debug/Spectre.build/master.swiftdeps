@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "9ea89782b53cccba68791894f7b60c1f"
+build_time: [1508339827, 875183000]
+inputs:
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Case.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Context.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Expectation.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Failure.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Global.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/GlobalContext.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Reporter.swift": [1508339823, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Spectre.git--7655155069707042687/Sources/Reporters.swift": [1508339823, 0]

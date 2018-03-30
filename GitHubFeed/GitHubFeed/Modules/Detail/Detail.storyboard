@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Obk-3J-TSH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Detail View Controller-->
+        <scene sceneID="uep-CB-SYh">
+            <objects>
+                <viewController id="Obk-3J-TSH" customClass="DetailViewController" customModule="GitHubFeed" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nJc-Oc-5ml"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dm7-hm-vqd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kxd-Tb-hg3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HPu-nY-RVm">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HPu-nY-RVm" secondAttribute="trailing" id="CNb-4y-2lZ"/>
+                            <constraint firstItem="HPu-nY-RVm" firstAttribute="top" secondItem="nJc-Oc-5ml" secondAttribute="bottom" id="O1z-CT-c95"/>
+                            <constraint firstItem="Dm7-hm-vqd" firstAttribute="top" secondItem="HPu-nY-RVm" secondAttribute="bottom" id="VK1-cC-XHv"/>
+                            <constraint firstItem="HPu-nY-RVm" firstAttribute="leading" secondItem="kxd-Tb-hg3" secondAttribute="leading" id="lwZ-a9-OFB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="HPu-nY-RVm" id="h5O-5K-KJY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qje-Fg-fnA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="358" y="-122"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,493 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Expression"
+- "InfixOperator"
+- "PrefixOperator"
+- "StaticExpression"
+- "VariableExpression"
+- "NotExpression"
+- "OrExpression"
+- "AndExpression"
+- "EqualityExpression"
+- "NumericExpression"
+- "MoreThanExpression"
+- "MoreThanEqualExpression"
+- "LessThanExpression"
+- "LessThanEqualExpression"
+- "InequalityExpression"
+- "toNumber"
+provides-nominal:
+- "7Stencil10ExpressionP"
+- "7Stencil13InfixOperatorP"
+- "7Stencil14PrefixOperatorP"
+- "7Stencil16StaticExpressionC"
+- "7Stencil18VariableExpressionC"
+- "7Stencil13NotExpressionC"
+- "7Stencil12OrExpressionC"
+- "7Stencil13AndExpressionC"
+- "7Stencil18EqualityExpressionC"
+- "7Stencil17NumericExpressionC"
+- "7Stencil18MoreThanExpressionC"
+- "7Stencil23MoreThanEqualExpressionC"
+- "7Stencil18LessThanExpressionC"
+- "7Stencil23LessThanEqualExpressionC"
+- "7Stencil20InequalityExpressionC"
+provides-member:
+- ["7Stencil10ExpressionP", ""]
+- ["7Stencil13InfixOperatorP", ""]
+- ["7Stencil14PrefixOperatorP", ""]
+- ["7Stencil16StaticExpressionC", ""]
+- ["7Stencil18VariableExpressionC", ""]
+- ["7Stencil13NotExpressionC", ""]
+- ["7Stencil12OrExpressionC", ""]
+- ["7Stencil13AndExpressionC", ""]
+- ["7Stencil18EqualityExpressionC", ""]
+- ["7Stencil17NumericExpressionC", ""]
+- ["7Stencil18MoreThanExpressionC", ""]
+- ["7Stencil23MoreThanEqualExpressionC", ""]
+- ["7Stencil18LessThanExpressionC", ""]
+- ["7Stencil23LessThanEqualExpressionC", ""]
+- ["7Stencil20InequalityExpressionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- "AndExpression"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Context"
+- "CustomStringConvertible"
+- !private "Double"
+- "EqualityExpression"
+- "Expression"
+- !private "Float"
+- !private "Float32"
+- !private "Float64"
+- "InequalityExpression"
+- "InfixOperator"
+- !private "Int"
+- !private "Int16"
+- !private "Int32"
+- !private "Int64"
+- !private "Int8"
+- "LessThanEqualExpression"
+- "LessThanExpression"
+- "MoreThanEqualExpression"
+- "MoreThanExpression"
+- "NotExpression"
+- "Number"
+- "NumericExpression"
+- "OrExpression"
+- "PrefixOperator"
+- "Resolvable"
+- "StaticExpression"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt"
+- !private "UInt16"
+- !private "UInt32"
+- !private "UInt64"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- "VariableExpression"
+- "toNumber"
+depends-member:
+- ["7Stencil13AndExpressionC", "Bool"]
+- ["7Stencil13AndExpressionC", "Context"]
+- ["7Stencil13AndExpressionC", "Expression"]
+- ["7Stencil13AndExpressionC", "String"]
+- ["7Stencil13AndExpressionC", "deinit"]
+- ["7Stencil13AndExpressionC", "description"]
+- ["7Stencil13AndExpressionC", "evaluate"]
+- ["7Stencil13AndExpressionC", "init"]
+- ["7Stencil13AndExpressionC", "lhs"]
+- ["7Stencil13AndExpressionC", "rhs"]
+- !private ["Sa", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "Context"]
+- ["s23CustomStringConvertibleP", "Expression"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "evaluate"]
+- !private ["s23CustomStringConvertibleP", "expression"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lhs"]
+- !private ["s23CustomStringConvertibleP", "op"]
+- !private ["s23CustomStringConvertibleP", "resolve"]
+- !private ["s23CustomStringConvertibleP", "rhs"]
+- !private ["s23CustomStringConvertibleP", "toNumber"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "variable"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s10DictionaryV", "isEmpty"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- ["7Stencil18EqualityExpressionC", "Bool"]
+- ["7Stencil18EqualityExpressionC", "Context"]
+- ["7Stencil18EqualityExpressionC", "Expression"]
+- ["7Stencil18EqualityExpressionC", "String"]
+- !private ["7Stencil18EqualityExpressionC", "VariableExpression"]
+- ["7Stencil18EqualityExpressionC", "deinit"]
+- ["7Stencil18EqualityExpressionC", "description"]
+- ["7Stencil18EqualityExpressionC", "evaluate"]
+- ["7Stencil18EqualityExpressionC", "init"]
+- ["7Stencil18EqualityExpressionC", "lhs"]
+- ["7Stencil18EqualityExpressionC", "rhs"]
+- !private ["7Stencil18EqualityExpressionC", "toNumber"]
+- ["7Stencil18EqualityExpressionC", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["7Stencil10ExpressionP", "Bool"]
+- ["7Stencil10ExpressionP", "Context"]
+- ["7Stencil10ExpressionP", "Expression"]
+- !private ["7Stencil10ExpressionP", "compare"]
+- ["7Stencil10ExpressionP", "description"]
+- ["7Stencil10ExpressionP", "evaluate"]
+- !private ["7Stencil10ExpressionP", "expression"]
+- ["7Stencil10ExpressionP", "init"]
+- !private ["7Stencil10ExpressionP", "lhs"]
+- !private ["7Stencil10ExpressionP", "op"]
+- !private ["7Stencil10ExpressionP", "resolve"]
+- !private ["7Stencil10ExpressionP", "rhs"]
+- !private ["7Stencil10ExpressionP", "toNumber"]
+- !private ["7Stencil10ExpressionP", "value"]
+- !private ["7Stencil10ExpressionP", "variable"]
+- ["7Stencil10ExpressionP", ""]
+- !private ["Sf", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- ["7Stencil20InequalityExpressionC", "Bool"]
+- ["7Stencil20InequalityExpressionC", "Context"]
+- ["7Stencil20InequalityExpressionC", "String"]
+- ["7Stencil20InequalityExpressionC", "deinit"]
+- ["7Stencil20InequalityExpressionC", "description"]
+- ["7Stencil20InequalityExpressionC", "evaluate"]
+- ["7Stencil20InequalityExpressionC", "init"]
+- !private ["7Stencil20InequalityExpressionC", "lhs"]
+- !private ["7Stencil20InequalityExpressionC", "rhs"]
+- ["7Stencil13InfixOperatorP", "Expression"]
+- !private ["7Stencil13InfixOperatorP", "compare"]
+- ["7Stencil13InfixOperatorP", "description"]
+- ["7Stencil13InfixOperatorP", "evaluate"]
+- ["7Stencil13InfixOperatorP", "init"]
+- !private ["7Stencil13InfixOperatorP", "lhs"]
+- !private ["7Stencil13InfixOperatorP", "op"]
+- !private ["7Stencil13InfixOperatorP", "rhs"]
+- !private ["7Stencil13InfixOperatorP", "toNumber"]
+- ["7Stencil13InfixOperatorP", ""]
+- ["7Stencil23LessThanEqualExpressionC", "Bool"]
+- ["7Stencil23LessThanEqualExpressionC", "Number"]
+- ["7Stencil23LessThanEqualExpressionC", "String"]
+- ["7Stencil23LessThanEqualExpressionC", "compare"]
+- ["7Stencil23LessThanEqualExpressionC", "deinit"]
+- ["7Stencil23LessThanEqualExpressionC", "init"]
+- ["7Stencil23LessThanEqualExpressionC", "op"]
+- ["7Stencil18LessThanExpressionC", "Bool"]
+- ["7Stencil18LessThanExpressionC", "Number"]
+- ["7Stencil18LessThanExpressionC", "String"]
+- ["7Stencil18LessThanExpressionC", "compare"]
+- ["7Stencil18LessThanExpressionC", "deinit"]
+- ["7Stencil18LessThanExpressionC", "init"]
+- ["7Stencil18LessThanExpressionC", "op"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["7Stencil23MoreThanEqualExpressionC", "Bool"]
+- ["7Stencil23MoreThanEqualExpressionC", "Number"]
+- ["7Stencil23MoreThanEqualExpressionC", "String"]
+- ["7Stencil23MoreThanEqualExpressionC", "compare"]
+- ["7Stencil23MoreThanEqualExpressionC", "deinit"]
+- ["7Stencil23MoreThanEqualExpressionC", "init"]
+- ["7Stencil23MoreThanEqualExpressionC", "op"]
+- ["7Stencil18MoreThanExpressionC", "Bool"]
+- ["7Stencil18MoreThanExpressionC", "Number"]
+- ["7Stencil18MoreThanExpressionC", "String"]
+- ["7Stencil18MoreThanExpressionC", "compare"]
+- ["7Stencil18MoreThanExpressionC", "deinit"]
+- ["7Stencil18MoreThanExpressionC", "init"]
+- ["7Stencil18MoreThanExpressionC", "op"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["7Stencil12NormalizableP", "isEmpty"]
+- ["7Stencil13NotExpressionC", "Bool"]
+- ["7Stencil13NotExpressionC", "Context"]
+- ["7Stencil13NotExpressionC", "Expression"]
+- ["7Stencil13NotExpressionC", "String"]
+- ["7Stencil13NotExpressionC", "deinit"]
+- ["7Stencil13NotExpressionC", "description"]
+- ["7Stencil13NotExpressionC", "evaluate"]
+- ["7Stencil13NotExpressionC", "expression"]
+- ["7Stencil13NotExpressionC", "init"]
+- !private ["s7NumericP", "init"]
+- ["7Stencil17NumericExpressionC", "Bool"]
+- ["7Stencil17NumericExpressionC", "Context"]
+- ["7Stencil17NumericExpressionC", "Expression"]
+- ["7Stencil17NumericExpressionC", "Number"]
+- ["7Stencil17NumericExpressionC", "String"]
+- !private ["7Stencil17NumericExpressionC", "VariableExpression"]
+- ["7Stencil17NumericExpressionC", "compare"]
+- ["7Stencil17NumericExpressionC", "deinit"]
+- ["7Stencil17NumericExpressionC", "description"]
+- ["7Stencil17NumericExpressionC", "evaluate"]
+- ["7Stencil17NumericExpressionC", "init"]
+- ["7Stencil17NumericExpressionC", "lhs"]
+- ["7Stencil17NumericExpressionC", "op"]
+- ["7Stencil17NumericExpressionC", "rhs"]
+- !private ["7Stencil17NumericExpressionC", "toNumber"]
+- ["7Stencil17NumericExpressionC", ""]
+- ["7Stencil12OrExpressionC", "Bool"]
+- ["7Stencil12OrExpressionC", "Context"]
+- ["7Stencil12OrExpressionC", "Expression"]
+- ["7Stencil12OrExpressionC", "String"]
+- ["7Stencil12OrExpressionC", "deinit"]
+- ["7Stencil12OrExpressionC", "description"]
+- ["7Stencil12OrExpressionC", "evaluate"]
+- ["7Stencil12OrExpressionC", "init"]
+- ["7Stencil12OrExpressionC", "lhs"]
+- ["7Stencil12OrExpressionC", "rhs"]
+- ["7Stencil14PrefixOperatorP", "Expression"]
+- ["7Stencil14PrefixOperatorP", "description"]
+- ["7Stencil14PrefixOperatorP", "evaluate"]
+- !private ["7Stencil14PrefixOperatorP", "expression"]
+- ["7Stencil14PrefixOperatorP", "init"]
+- ["7Stencil14PrefixOperatorP", ""]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["7Stencil10ResolvableP", "resolve"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s13SignedNumericP", "init"]
+- ["7Stencil16StaticExpressionC", "Bool"]
+- ["7Stencil16StaticExpressionC", "Context"]
+- ["7Stencil16StaticExpressionC", "String"]
+- ["7Stencil16StaticExpressionC", "deinit"]
+- ["7Stencil16StaticExpressionC", "description"]
+- ["7Stencil16StaticExpressionC", "evaluate"]
+- ["7Stencil16StaticExpressionC", "init"]
+- ["7Stencil16StaticExpressionC", "value"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["7Stencil18VariableExpressionC", "Bool"]
+- ["7Stencil18VariableExpressionC", "Context"]
+- ["7Stencil18VariableExpressionC", "Resolvable"]
+- ["7Stencil18VariableExpressionC", "String"]
+- ["7Stencil18VariableExpressionC", "deinit"]
+- ["7Stencil18VariableExpressionC", "description"]
+- ["7Stencil18VariableExpressionC", "evaluate"]
+- ["7Stencil18VariableExpressionC", "init"]
+- ["7Stencil18VariableExpressionC", "resolve"]
+- !private ["7Stencil18VariableExpressionC", "toNumber"]
+- ["7Stencil18VariableExpressionC", "variable"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["s17_MutableIndexableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s22_RandomAccessIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- "7Stencil13AndExpressionC"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "7Stencil18EqualityExpressionC"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7Stencil10ExpressionP"
+- !private "Sf"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- "7Stencil20InequalityExpressionC"
+- "7Stencil13InfixOperatorP"
+- "7Stencil23LessThanEqualExpressionC"
+- "7Stencil18LessThanExpressionC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "7Stencil23MoreThanEqualExpressionC"
+- "7Stencil18MoreThanExpressionC"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7Stencil12NormalizableP"
+- "7Stencil13NotExpressionC"
+- !private "s7NumericP"
+- "7Stencil17NumericExpressionC"
+- "7Stencil12OrExpressionC"
+- "7Stencil14PrefixOperatorP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "7Stencil10ResolvableP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- "7Stencil16StaticExpressionC"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7Stencil18VariableExpressionC"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+interface-hash: "500b5c742b1ea929b349fd221050ae42"

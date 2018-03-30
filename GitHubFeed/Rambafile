@@ -1,0 +1,33 @@
+### Headers settings
+company: 'GS'
+
+### Xcode project settings
+project_name: GitHubFeed
+xcodeproj_path: GitHubFeed.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: GitHubFeed
+
+# The file path for new modules
+project_file_path: GitHubFeed/Modules
+
+# The Xcode group path to new modules
+project_group_path: GitHubFeed/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: GitHubFeedUnitTests
+
+# The file path for new tests
+test_file_path: GitHubFeedUnitTests/Modules
+
+# The Xcode group path to new tests
+test_group_path: GitHubFeedUnitTests/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: generamba-viper-template}

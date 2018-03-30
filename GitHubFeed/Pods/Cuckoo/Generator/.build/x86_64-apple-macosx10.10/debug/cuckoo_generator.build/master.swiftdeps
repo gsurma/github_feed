@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "4d94e68efe23d76cdac69742e7486c45"
+build_time: [1508339858, 330140000]
+inputs:
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/Source/cuckoo_generator/CuckooGeneratorError.swift": [1508339434, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/Source/cuckoo_generator/GenerateMocksCommand.swift": [1508339434, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/Source/cuckoo_generator/VersionCommand.swift": [1508339434, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/Source/cuckoo_generator/main.swift": [1508339434, 0]

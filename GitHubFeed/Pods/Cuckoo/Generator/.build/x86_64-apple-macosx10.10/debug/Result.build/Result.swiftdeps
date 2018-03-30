@@ -1,0 +1,408 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Result"
+- "materialize"
+- "materialize"
+- "materialize"
+- "materialize"
+- "try"
+- "try"
+- "NoError"
+- "AnyError"
+- "=="
+provides-nominal:
+- "6ResultAAO"
+- "So7NSErrorC"
+- "6Result7NoErrorO"
+- "6Result8AnyErrorV"
+provides-member:
+- ["6ResultAAO", ""]
+- ["So7NSErrorC", ""]
+- ["6Result7NoErrorO", ""]
+- ["6Result8AnyErrorV", ""]
+- ["6ResultAAO", "Success"]
+- ["6ResultAAO", "Failure"]
+- ["So7NSErrorC", "errorFromErrorType"]
+provides-dynamic-lookup:
+- "error"
+- "errorFromErrorType"
+depends-top-level:
+- "=="
+- !private "??"
+- "AnyError"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "Equatable"
+- "Error"
+- "ErrorConvertible"
+- "Int"
+- "LocalizedError"
+- "NSError"
+- "NSErrorPointer"
+- !private "NSLocalizedDescriptionKey"
+- "NoError"
+- "Result"
+- "ResultProtocol"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- "materialize"
+- "try"
+depends-member:
+- ["6Result8AnyErrorV", "AnyError"]
+- ["6Result8AnyErrorV", "Error"]
+- !private ["6Result8AnyErrorV", "LocalizedError"]
+- ["6Result8AnyErrorV", "String"]
+- ["6Result8AnyErrorV", "Swift"]
+- ["6Result8AnyErrorV", "_code"]
+- ["6Result8AnyErrorV", "_domain"]
+- ["6Result8AnyErrorV", "_getEmbeddedNSError"]
+- ["6Result8AnyErrorV", "_userInfo"]
+- ["6Result8AnyErrorV", "deinit"]
+- ["6Result8AnyErrorV", "description"]
+- ["6Result8AnyErrorV", "error"]
+- ["6Result8AnyErrorV", "errorDescription"]
+- ["6Result8AnyErrorV", "failureReason"]
+- ["6Result8AnyErrorV", "helpAnchor"]
+- ["6Result8AnyErrorV", "init"]
+- ["6Result8AnyErrorV", "recoverySuggestion"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "error"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AnyError"]
+- ["s28CustomDebugStringConvertibleP", "Error"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedDescriptionKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Result"]
+- ["s28CustomDebugStringConvertibleP", "Value"]
+- ["s28CustomDebugStringConvertibleP", "analysis"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "errorDomain"]
+- ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "fileKey"]
+- !private ["s28CustomDebugStringConvertibleP", "functionKey"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lineKey"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "success"]
+- ["s28CustomDebugStringConvertibleP", "value"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "AnyError"]
+- ["s23CustomStringConvertibleP", "Error"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedDescriptionKey"]
+- !private ["s23CustomStringConvertibleP", "Result"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "Value"]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- ["s23CustomStringConvertibleP", "analysis"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "errorDescription"]
+- !private ["s23CustomStringConvertibleP", "errorDomain"]
+- ["s23CustomStringConvertibleP", "failure"]
+- ["s23CustomStringConvertibleP", "failureReason"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "fileKey"]
+- !private ["s23CustomStringConvertibleP", "functionKey"]
+- ["s23CustomStringConvertibleP", "helpAnchor"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lineKey"]
+- ["s23CustomStringConvertibleP", "recoverySuggestion"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "success"]
+- ["s23CustomStringConvertibleP", "value"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_userInfo"]
+- ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "AnyError"]
+- !private ["s5ErrorP", "String"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- ["s5ErrorP", "error"]
+- ["s5ErrorP", "errorDescription"]
+- ["s5ErrorP", "failureReason"]
+- !private ["s5ErrorP", "fatalError"]
+- ["s5ErrorP", "helpAnchor"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "recoverySuggestion"]
+- ["s5ErrorP", ""]
+- !private ["6Result16ErrorConvertibleP", "AnyError"]
+- !private ["6Result16ErrorConvertibleP", "String"]
+- ["6Result16ErrorConvertibleP", "_code"]
+- ["6Result16ErrorConvertibleP", "_domain"]
+- ["6Result16ErrorConvertibleP", "_getEmbeddedNSError"]
+- ["6Result16ErrorConvertibleP", "_userInfo"]
+- ["6Result16ErrorConvertibleP", "description"]
+- ["6Result16ErrorConvertibleP", "error"]
+- ["6Result16ErrorConvertibleP", "errorDescription"]
+- ["6Result16ErrorConvertibleP", "failureReason"]
+- !private ["6Result16ErrorConvertibleP", "fatalError"]
+- ["6Result16ErrorConvertibleP", "helpAnchor"]
+- !private ["6Result16ErrorConvertibleP", "init"]
+- ["6Result16ErrorConvertibleP", "recoverySuggestion"]
+- ["6Result16ErrorConvertibleP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "error"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "init"]
+- !private ["10Foundation14LocalizedErrorP", "AnyError"]
+- !private ["10Foundation14LocalizedErrorP", "String"]
+- ["10Foundation14LocalizedErrorP", "_code"]
+- ["10Foundation14LocalizedErrorP", "_domain"]
+- ["10Foundation14LocalizedErrorP", "_getEmbeddedNSError"]
+- ["10Foundation14LocalizedErrorP", "_userInfo"]
+- ["10Foundation14LocalizedErrorP", "description"]
+- ["10Foundation14LocalizedErrorP", "error"]
+- ["10Foundation14LocalizedErrorP", "errorDescription"]
+- ["10Foundation14LocalizedErrorP", "failureReason"]
+- ["10Foundation14LocalizedErrorP", "helpAnchor"]
+- !private ["10Foundation14LocalizedErrorP", "init"]
+- ["10Foundation14LocalizedErrorP", "recoverySuggestion"]
+- ["10Foundation14LocalizedErrorP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "error"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "error"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSErrorC", "NSError"]
+- ["So7NSErrorC", "Swift"]
+- ["So7NSErrorC", "deinit"]
+- ["So7NSErrorC", "error"]
+- ["So7NSErrorC", "errorFromErrorType"]
+- !private ["So7NSErrorC", "fatalError"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "Swift"]
+- ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "errorFromErrorType"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "init"]
+- ["So16NSObjectProtocolP", "error"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "error"]
+- !private ["So14NSSecureCodingP", "fatalError"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["6Result7NoErrorO", "=="]
+- ["6Result7NoErrorO", "Bool"]
+- ["6Result7NoErrorO", "NoError"]
+- ["6Result7NoErrorO", "_code"]
+- ["6Result7NoErrorO", "_domain"]
+- ["6Result7NoErrorO", "_getEmbeddedNSError"]
+- ["6Result7NoErrorO", "_userInfo"]
+- ["6Result7NoErrorO", "deinit"]
+- !private ["Sq", "map"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["6ResultAAO", "AnyError"]
+- ["6ResultAAO", "Error"]
+- ["6ResultAAO", "Failure"]
+- ["6ResultAAO", "Int"]
+- ["6ResultAAO", "NSError"]
+- !private ["6ResultAAO", "NSLocalizedDescriptionKey"]
+- ["6ResultAAO", "Result"]
+- ["6ResultAAO", "String"]
+- ["6ResultAAO", "Success"]
+- ["6ResultAAO", "T"]
+- ["6ResultAAO", "Value"]
+- ["6ResultAAO", "analysis"]
+- ["6ResultAAO", "debugDescription"]
+- ["6ResultAAO", "deinit"]
+- ["6ResultAAO", "dematerialize"]
+- ["6ResultAAO", "description"]
+- ["6ResultAAO", "error"]
+- ["6ResultAAO", "errorDomain"]
+- ["6ResultAAO", "failure"]
+- !private ["6ResultAAO", "fatalError"]
+- ["6ResultAAO", "fileKey"]
+- ["6ResultAAO", "functionKey"]
+- ["6ResultAAO", "init"]
+- ["6ResultAAO", "lineKey"]
+- ["6ResultAAO", "success"]
+- ["6ResultAAO", "value"]
+- !private ["6Result0A8ProtocolP", "AnyError"]
+- ["6Result0A8ProtocolP", "Error"]
+- !private ["6Result0A8ProtocolP", "NSError"]
+- !private ["6Result0A8ProtocolP", "NSLocalizedDescriptionKey"]
+- !private ["6Result0A8ProtocolP", "Result"]
+- ["6Result0A8ProtocolP", "Value"]
+- ["6Result0A8ProtocolP", "analysis"]
+- ["6Result0A8ProtocolP", "debugDescription"]
+- ["6Result0A8ProtocolP", "description"]
+- ["6Result0A8ProtocolP", "error"]
+- !private ["6Result0A8ProtocolP", "errorDomain"]
+- ["6Result0A8ProtocolP", "failure"]
+- !private ["6Result0A8ProtocolP", "fatalError"]
+- !private ["6Result0A8ProtocolP", "fileKey"]
+- !private ["6Result0A8ProtocolP", "functionKey"]
+- ["6Result0A8ProtocolP", "init"]
+- !private ["6Result0A8ProtocolP", "lineKey"]
+- ["6Result0A8ProtocolP", "success"]
+- ["6Result0A8ProtocolP", "value"]
+- ["6Result0A8ProtocolP", ""]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "6Result8AnyErrorV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s5ErrorP"
+- "6Result16ErrorConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "6Result7NoErrorO"
+- !private "Sq"
+- !private "s26RangeReplaceableCollectionP"
+- "6ResultAAO"
+- "6Result0A8ProtocolP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+interface-hash: "81d6b30171e003744c36f577c5fdbdd3"

@@ -1,0 +1,463 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DispatchFileSystemWatcherDelegate"
+- "DispatchFileSystemWatcher"
+provides-nominal:
+- "7FileKit08DispatchA21SystemWatcherDelegateP"
+- "7FileKit08DispatchA13SystemWatcherC"
+provides-member:
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", ""]
+- ["7FileKit08DispatchA13SystemWatcherC", ""]
+- ["7FileKit4PathV", ""]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveDelete"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveWrite"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveExtend"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveAttrib"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveLink"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveRename"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveRevoke"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveCreate"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveDirectoryChange"]
+- ["7FileKit4PathV", "watch2"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CInt"
+- !private "Darwin"
+- "DispatchFileSystemEvents"
+- "DispatchFileSystemWatcher"
+- "DispatchFileSystemWatcherDelegate"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "DispatchSourceProtocol"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "O_EVTONLY"
+- "Path"
+- "Void"
+- !private "open"
+- !private "||"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "FileSystemEvent"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "makeFileSystemObjectSource"]
+- !private ["s28CustomDebugStringConvertibleP", "All"]
+- !private ["s28CustomDebugStringConvertibleP", "Attribute"]
+- !private ["s28CustomDebugStringConvertibleP", "Create"]
+- !private ["s28CustomDebugStringConvertibleP", "Delete"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchFileSystemWatcher"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Extend"]
+- !private ["s28CustomDebugStringConvertibleP", "FileSystemEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "Link"]
+- !private ["s28CustomDebugStringConvertibleP", "Rename"]
+- !private ["s28CustomDebugStringConvertibleP", "Revoke"]
+- !private ["s28CustomDebugStringConvertibleP", "Write"]
+- !private ["s28CustomDebugStringConvertibleP", "_safeRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "absolute"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "exists"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isDirectoryFile"]
+- !private ["s28CustomDebugStringConvertibleP", "isRegular"]
+- !private ["s28CustomDebugStringConvertibleP", "makeFileSystemObjectSource"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "watch2"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "Create"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "All"]
+- !private ["s23CustomStringConvertibleP", "Attribute"]
+- !private ["s23CustomStringConvertibleP", "Create"]
+- !private ["s23CustomStringConvertibleP", "Delete"]
+- !private ["s23CustomStringConvertibleP", "DispatchFileSystemWatcher"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Extend"]
+- !private ["s23CustomStringConvertibleP", "FileSystemEvent"]
+- !private ["s23CustomStringConvertibleP", "Link"]
+- !private ["s23CustomStringConvertibleP", "Rename"]
+- !private ["s23CustomStringConvertibleP", "Revoke"]
+- !private ["s23CustomStringConvertibleP", "Write"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_safeRawValue"]
+- !private ["s23CustomStringConvertibleP", "absolute"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "exists"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isDirectoryFile"]
+- !private ["s23CustomStringConvertibleP", "isRegular"]
+- !private ["s23CustomStringConvertibleP", "makeFileSystemObjectSource"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "watch2"]
+- !private ["s9DecodableP", "Create"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "All"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Attribute"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Create"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Delete"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Extend"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Link"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Rename"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Revoke"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "Write"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "contains"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "deinit"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "init"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "rawValue"]
+- !private ["7FileKit08DispatchA12SystemEventsV", "remove"]
+- ["7FileKit08DispatchA13SystemWatcherC", "Bool"]
+- ["7FileKit08DispatchA13SystemWatcherC", "CInt"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "Darwin"]
+- ["7FileKit08DispatchA13SystemWatcherC", "DispatchFileSystemEvents"]
+- ["7FileKit08DispatchA13SystemWatcherC", "DispatchFileSystemWatcher"]
+- ["7FileKit08DispatchA13SystemWatcherC", "DispatchFileSystemWatcherDelegate"]
+- ["7FileKit08DispatchA13SystemWatcherC", "DispatchQueue"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "DispatchSource"]
+- ["7FileKit08DispatchA13SystemWatcherC", "DispatchSourceProtocol"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "O_EVTONLY"]
+- ["7FileKit08DispatchA13SystemWatcherC", "Path"]
+- ["7FileKit08DispatchA13SystemWatcherC", "Void"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "callback"]
+- ["7FileKit08DispatchA13SystemWatcherC", "close"]
+- ["7FileKit08DispatchA13SystemWatcherC", "createWatcher"]
+- ["7FileKit08DispatchA13SystemWatcherC", "currentEvent"]
+- ["7FileKit08DispatchA13SystemWatcherC", "deinit"]
+- ["7FileKit08DispatchA13SystemWatcherC", "delegate"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "dispatchDelegate"]
+- ["7FileKit08DispatchA13SystemWatcherC", "events"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "fileDescriptor"]
+- ["7FileKit08DispatchA13SystemWatcherC", "init"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "open"]
+- ["7FileKit08DispatchA13SystemWatcherC", "path"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "queue"]
+- !private ["7FileKit08DispatchA13SystemWatcherC", "source"]
+- ["7FileKit08DispatchA13SystemWatcherC", "startWatching"]
+- ["7FileKit08DispatchA13SystemWatcherC", "stopWatching"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "DispatchFileSystemWatcher"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveAttrib"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveCreate"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveDelete"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveDirectoryChange"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveExtend"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveLink"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveRename"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveRevoke"]
+- ["7FileKit08DispatchA21SystemWatcherDelegateP", "fsWatcherDidObserveWrite"]
+- !private ["So14DispatchObjectC", "FileSystemEvent"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So14DispatchObjectC", "makeFileSystemObjectSource"]
+- !private ["So13DispatchQueueC", "global"]
+- !private ["So14DispatchSourceC", "FileSystemEvent"]
+- !private ["So14DispatchSourceC", "makeFileSystemObjectSource"]
+- !private ["So30DispatchSourceFileSystemObjectP", "FileSystemEvent"]
+- !private ["So30DispatchSourceFileSystemObjectP", "makeFileSystemObjectSource"]
+- !private ["So25DispatchSourceMachReceiveP", "FileSystemEvent"]
+- !private ["So25DispatchSourceMachReceiveP", "makeFileSystemObjectSource"]
+- !private ["So22DispatchSourceMachSendP", "FileSystemEvent"]
+- !private ["So22DispatchSourceMachSendP", "makeFileSystemObjectSource"]
+- !private ["So28DispatchSourceMemoryPressureP", "FileSystemEvent"]
+- !private ["So28DispatchSourceMemoryPressureP", "makeFileSystemObjectSource"]
+- !private ["So21DispatchSourceProcessP", "FileSystemEvent"]
+- !private ["So21DispatchSourceProcessP", "makeFileSystemObjectSource"]
+- !private ["So22DispatchSourceProtocolP", "FileSystemEvent"]
+- !private ["So22DispatchSourceProtocolP", "cancel"]
+- !private ["So22DispatchSourceProtocolP", "data"]
+- !private ["So22DispatchSourceProtocolP", "makeFileSystemObjectSource"]
+- !private ["So22DispatchSourceProtocolP", "resume"]
+- !private ["So22DispatchSourceProtocolP", "setCancelHandler"]
+- !private ["So22DispatchSourceProtocolP", "setEventHandler"]
+- !private ["So18DispatchSourceReadP", "FileSystemEvent"]
+- !private ["So18DispatchSourceReadP", "makeFileSystemObjectSource"]
+- !private ["So20DispatchSourceSignalP", "FileSystemEvent"]
+- !private ["So20DispatchSourceSignalP", "makeFileSystemObjectSource"]
+- !private ["So19DispatchSourceTimerP", "FileSystemEvent"]
+- !private ["So19DispatchSourceTimerP", "makeFileSystemObjectSource"]
+- !private ["So25DispatchSourceUserDataAddP", "FileSystemEvent"]
+- !private ["So25DispatchSourceUserDataAddP", "makeFileSystemObjectSource"]
+- !private ["So24DispatchSourceUserDataOrP", "FileSystemEvent"]
+- !private ["So24DispatchSourceUserDataOrP", "makeFileSystemObjectSource"]
+- !private ["So29DispatchSourceUserDataReplaceP", "FileSystemEvent"]
+- !private ["So29DispatchSourceUserDataReplaceP", "makeFileSystemObjectSource"]
+- !private ["So19DispatchSourceWriteP", "FileSystemEvent"]
+- !private ["So19DispatchSourceWriteP", "makeFileSystemObjectSource"]
+- !private ["s9EncodableP", "Create"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "All"]
+- !private ["s9EquatableP", "Attribute"]
+- !private ["s9EquatableP", "Create"]
+- !private ["s9EquatableP", "Delete"]
+- !private ["s9EquatableP", "DispatchFileSystemWatcher"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Extend"]
+- !private ["s9EquatableP", "FileSystemEvent"]
+- !private ["s9EquatableP", "Link"]
+- !private ["s9EquatableP", "Rename"]
+- !private ["s9EquatableP", "Revoke"]
+- !private ["s9EquatableP", "Write"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_safeRawValue"]
+- !private ["s9EquatableP", "absolute"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "exists"]
+- !private ["s9EquatableP", "global"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isDirectoryFile"]
+- !private ["s9EquatableP", "isRegular"]
+- !private ["s9EquatableP", "makeFileSystemObjectSource"]
+- !private ["s9EquatableP", "parent"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "watch2"]
+- !private ["s25ExpressibleByArrayLiteralP", "All"]
+- !private ["s25ExpressibleByArrayLiteralP", "Attribute"]
+- !private ["s25ExpressibleByArrayLiteralP", "Create"]
+- !private ["s25ExpressibleByArrayLiteralP", "Delete"]
+- !private ["s25ExpressibleByArrayLiteralP", "Extend"]
+- !private ["s25ExpressibleByArrayLiteralP", "Link"]
+- !private ["s25ExpressibleByArrayLiteralP", "Rename"]
+- !private ["s25ExpressibleByArrayLiteralP", "Revoke"]
+- !private ["s25ExpressibleByArrayLiteralP", "Write"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DispatchFileSystemWatcher"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "DispatchQueue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_safeRawValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "absolute"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "exists"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isDirectoryFile"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isRegular"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "watch2"]
+- !private ["s23ExpressibleByNilLiteralP", "Create"]
+- !private ["s26ExpressibleByStringLiteralP", "DispatchFileSystemWatcher"]
+- !private ["s26ExpressibleByStringLiteralP", "DispatchQueue"]
+- !private ["s26ExpressibleByStringLiteralP", "_safeRawValue"]
+- !private ["s26ExpressibleByStringLiteralP", "absolute"]
+- !private ["s26ExpressibleByStringLiteralP", "exists"]
+- !private ["s26ExpressibleByStringLiteralP", "isDirectoryFile"]
+- !private ["s26ExpressibleByStringLiteralP", "isRegular"]
+- !private ["s26ExpressibleByStringLiteralP", "parent"]
+- !private ["s26ExpressibleByStringLiteralP", "watch2"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "DispatchFileSystemWatcher"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "DispatchQueue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_safeRawValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "absolute"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "exists"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isDirectoryFile"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isRegular"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "watch2"]
+- !private ["So14DispatchSourceC0A0E15FileSystemEventV", "init"]
+- !private ["So13DispatchQueueC0A0E06GlobalB8PriorityO", "default"]
+- !private ["s8HashableP", "DispatchFileSystemWatcher"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "FileSystemEvent"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_safeRawValue"]
+- !private ["s8HashableP", "absolute"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "exists"]
+- !private ["s8HashableP", "global"]
+- !private ["s8HashableP", "isDirectoryFile"]
+- !private ["s8HashableP", "isRegular"]
+- !private ["s8HashableP", "makeFileSystemObjectSource"]
+- !private ["s8HashableP", "parent"]
+- !private ["s8HashableP", "watch2"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSObjectC", "FileSystemEvent"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "makeFileSystemObjectSource"]
+- !private ["So16NSObjectProtocolP", "FileSystemEvent"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "global"]
+- !private ["So16NSObjectProtocolP", "makeFileSystemObjectSource"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "setCancelHandler"]
+- !private ["So16NSObjectProtocolP", "setEventHandler"]
+- !private ["So9OS_objectC", "FileSystemEvent"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "makeFileSystemObjectSource"]
+- !private ["s9OptionSetP", "All"]
+- !private ["s9OptionSetP", "Attribute"]
+- !private ["s9OptionSetP", "Create"]
+- !private ["s9OptionSetP", "Delete"]
+- !private ["s9OptionSetP", "Extend"]
+- !private ["s9OptionSetP", "Link"]
+- !private ["s9OptionSetP", "Rename"]
+- !private ["s9OptionSetP", "Revoke"]
+- !private ["s9OptionSetP", "Write"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "rawValue"]
+- !private ["s9OptionSetP", "remove"]
+- !private ["Sq", "Create"]
+- ["7FileKit4PathV", "DispatchFileSystemEvents"]
+- ["7FileKit4PathV", "DispatchFileSystemWatcher"]
+- ["7FileKit4PathV", "DispatchFileSystemWatcherDelegate"]
+- ["7FileKit4PathV", "DispatchQueue"]
+- ["7FileKit4PathV", "Void"]
+- !private ["7FileKit4PathV", "_safeRawValue"]
+- !private ["7FileKit4PathV", "absolute"]
+- !private ["7FileKit4PathV", "exists"]
+- !private ["7FileKit4PathV", "isDirectoryFile"]
+- !private ["7FileKit4PathV", "isRegular"]
+- !private ["7FileKit4PathV", "parent"]
+- ["7FileKit4PathV", "watch2"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["s16RawRepresentableP", "All"]
+- !private ["s16RawRepresentableP", "Attribute"]
+- !private ["s16RawRepresentableP", "Create"]
+- !private ["s16RawRepresentableP", "Delete"]
+- !private ["s16RawRepresentableP", "DispatchFileSystemWatcher"]
+- !private ["s16RawRepresentableP", "DispatchQueue"]
+- !private ["s16RawRepresentableP", "Extend"]
+- !private ["s16RawRepresentableP", "Link"]
+- !private ["s16RawRepresentableP", "Rename"]
+- !private ["s16RawRepresentableP", "Revoke"]
+- !private ["s16RawRepresentableP", "Write"]
+- !private ["s16RawRepresentableP", "_safeRawValue"]
+- !private ["s16RawRepresentableP", "absolute"]
+- !private ["s16RawRepresentableP", "contains"]
+- !private ["s16RawRepresentableP", "exists"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "isDirectoryFile"]
+- !private ["s16RawRepresentableP", "isRegular"]
+- !private ["s16RawRepresentableP", "parent"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "remove"]
+- !private ["s16RawRepresentableP", "watch2"]
+- !private ["s8SequenceP", "DispatchFileSystemWatcher"]
+- !private ["s8SequenceP", "DispatchQueue"]
+- !private ["s8SequenceP", "_safeRawValue"]
+- !private ["s8SequenceP", "absolute"]
+- !private ["s8SequenceP", "exists"]
+- !private ["s8SequenceP", "isDirectoryFile"]
+- !private ["s8SequenceP", "isRegular"]
+- !private ["s8SequenceP", "parent"]
+- !private ["s8SequenceP", "watch2"]
+- !private ["s10SetAlgebraP", "All"]
+- !private ["s10SetAlgebraP", "Attribute"]
+- !private ["s10SetAlgebraP", "Create"]
+- !private ["s10SetAlgebraP", "Delete"]
+- !private ["s10SetAlgebraP", "Extend"]
+- !private ["s10SetAlgebraP", "Link"]
+- !private ["s10SetAlgebraP", "Rename"]
+- !private ["s10SetAlgebraP", "Revoke"]
+- !private ["s10SetAlgebraP", "Write"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "rawValue"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "DispatchFileSystemWatcher"]
+- !private ["s33_ExpressibleByStringInterpolationP", "DispatchQueue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "_safeRawValue"]
+- !private ["s33_ExpressibleByStringInterpolationP", "absolute"]
+- !private ["s33_ExpressibleByStringInterpolationP", "exists"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isDirectoryFile"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isRegular"]
+- !private ["s33_ExpressibleByStringInterpolationP", "parent"]
+- !private ["s33_ExpressibleByStringInterpolationP", "watch2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileSystemEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeFileSystemObjectSource"]
+- !private ["s21_ObjectiveCBridgeableP", "Create"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "7FileKit08DispatchA12SystemEventsV"
+- "7FileKit08DispatchA13SystemWatcherC"
+- "7FileKit08DispatchA21SystemWatcherDelegateP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "So14DispatchSourceC"
+- !private "So30DispatchSourceFileSystemObjectP"
+- !private "So25DispatchSourceMachReceiveP"
+- !private "So22DispatchSourceMachSendP"
+- !private "So28DispatchSourceMemoryPressureP"
+- !private "So21DispatchSourceProcessP"
+- !private "So22DispatchSourceProtocolP"
+- !private "So18DispatchSourceReadP"
+- !private "So20DispatchSourceSignalP"
+- !private "So19DispatchSourceTimerP"
+- !private "So25DispatchSourceUserDataAddP"
+- !private "So24DispatchSourceUserDataOrP"
+- !private "So29DispatchSourceUserDataReplaceP"
+- !private "So19DispatchSourceWriteP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So14DispatchSourceC0A0E15FileSystemEventV"
+- !private "So13DispatchQueueC0A0E06GlobalB8PriorityO"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "7FileKit4PathV"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+interface-hash: "a064adcaff033c9552c137a00ae05bf5"

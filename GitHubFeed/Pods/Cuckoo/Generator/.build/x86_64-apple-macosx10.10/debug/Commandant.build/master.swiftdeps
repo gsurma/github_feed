@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65.2 clang-900.0.37)"
+options: "fbdca67f314f211c95fbc25e004dc423"
+build_time: [1508339833, 269089000]
+inputs:
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Argument.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/ArgumentParser.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/ArgumentProtocol.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Command.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Errors.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Extensions.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/HelpCommand.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/LinuxSupport.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Option.swift": [1508339747, 0]
+  "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Commandant.git-3062511658102057207/Sources/Commandant/Switch.swift": [1508339747, 0]

@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultProtocol"
+- "ErrorConvertible"
+- "&&&"
+- "&&&"
+- "ChainingPrecedence"
+- ">>-"
+- ">>-"
+- "=="
+- "!="
+- "??"
+- "??"
+- "ResultType"
+- "ResultErrorType"
+- "ErrorTypeConvertible"
+- "ErrorProtocolConvertible"
+provides-nominal:
+- "6Result0A8ProtocolP"
+- "6Result16ErrorConvertibleP"
+- "6Result24ErrorProtocolConvertibleP"
+provides-member:
+- ["6Result0A8ProtocolP", ""]
+- ["6Result16ErrorConvertibleP", ""]
+- ["6Result24ErrorProtocolConvertibleP", ""]
+- ["6Result0A8ProtocolP", "value"]
+- ["6Result0A8ProtocolP", "error"]
+- ["6Result0A8ProtocolP", "map"]
+- ["6Result0A8ProtocolP", "flatMap"]
+- ["6Result0A8ProtocolP", "fanout"]
+- ["6Result0A8ProtocolP", "mapError"]
+- ["6Result0A8ProtocolP", "flatMapError"]
+- ["6Result0A8ProtocolP", "bimap"]
+- ["6Result0A8ProtocolP", "recover"]
+- ["6Result0A8ProtocolP", "recover"]
+- ["6Result0A8ProtocolP", "tryMap"]
+- ["6Result0A8ProtocolP", "recoverWith"]
+- ["6Result16ErrorConvertibleP", "errorFromErrorType"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- "&&&"
+- "=="
+- ">>-"
+- "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "ErrorConvertible"
+- "ErrorProtocolConvertible"
+- "ErrorTypeConvertible"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LogicalConjunctionPrecedence"
+- "Result"
+- "ResultErrorType"
+- "ResultProtocol"
+- "ResultType"
+- !private "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- !private "fatalError"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- ["s5ErrorP", "Self"]
+- ["s5ErrorP", "Swift"]
+- ["s5ErrorP", "error"]
+- !private ["s5ErrorP", "fatalError"]
+- ["s5ErrorP", ""]
+- ["6Result16ErrorConvertibleP", "Self"]
+- ["6Result16ErrorConvertibleP", "Swift"]
+- ["6Result16ErrorConvertibleP", "error"]
+- ["6Result16ErrorConvertibleP", "errorFromErrorType"]
+- !private ["6Result16ErrorConvertibleP", "fatalError"]
+- ["6Result16ErrorConvertibleP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6ResultAAO", "failure"]
+- !private ["6ResultAAO", "success"]
+- ["6Result0A8ProtocolP", "Error"]
+- ["6Result0A8ProtocolP", "ErrorConvertible"]
+- ["6Result0A8ProtocolP", "Result"]
+- ["6Result0A8ProtocolP", "ResultProtocol"]
+- ["6Result0A8ProtocolP", "Self"]
+- ["6Result0A8ProtocolP", "Swift"]
+- ["6Result0A8ProtocolP", "Value"]
+- ["6Result0A8ProtocolP", "analysis"]
+- ["6Result0A8ProtocolP", "bimap"]
+- ["6Result0A8ProtocolP", "error"]
+- !private ["6Result0A8ProtocolP", "failure"]
+- ["6Result0A8ProtocolP", "fanout"]
+- !private ["6Result0A8ProtocolP", "fatalError"]
+- ["6Result0A8ProtocolP", "flatMap"]
+- ["6Result0A8ProtocolP", "flatMapError"]
+- ["6Result0A8ProtocolP", "init"]
+- ["6Result0A8ProtocolP", "map"]
+- ["6Result0A8ProtocolP", "mapError"]
+- ["6Result0A8ProtocolP", "recover"]
+- ["6Result0A8ProtocolP", "recoverWith"]
+- !private ["6Result0A8ProtocolP", "success"]
+- ["6Result0A8ProtocolP", "tryMap"]
+- ["6Result0A8ProtocolP", "value"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s5ErrorP"
+- "6Result16ErrorConvertibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6ResultAAO"
+- "6Result0A8ProtocolP"
+- !private "s12StaticStringV"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+interface-hash: "9351f679a84306ee0a4a132215c2b135"

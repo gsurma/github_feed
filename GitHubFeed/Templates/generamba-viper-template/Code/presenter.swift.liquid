@@ -1,0 +1,28 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+class {{ module_info.name }}Presenter
+     <InteractorType: {{ module_info.name }}ContractInteractor, RoutingType: {{ module_info.name }}ContractRouting, ViewType: {{ module_info.name }}ContractView>
+    : BaseRxPresenter<InteractorType, RoutingType, ViewType> {
+
+    override func attach(viperView: ViperRxView) {
+        super.attach(viperView: viperView)
+
+        //Do rx binding
+    }
+
+    override func createRouting() -> RoutingType {
+        return {{ module_info.name }}Routing() as! RoutingType
+    }
+
+    override func createInteractor() -> InteractorType {
+        return {{ module_info.name }}Interactor() as! InteractorType
+    }
+}

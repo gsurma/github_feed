@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Structure"
+- "=="
+provides-nominal:
+- "21SourceKittenFramework9StructureV"
+provides-member:
+- ["21SourceKittenFramework9StructureV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CustomStringConvertible"
+- "Equatable"
+- "File"
+- !private "Request"
+- "SourceKitRepresentable"
+- "String"
+- "Structure"
+- !private "SwiftDocKey"
+- !private "toJSON"
+- !private "toNSDictionary"
+depends-member:
+- !private ["s7CVarArgP", "isEqualTo"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s10CollectionP", "isEqualTo"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEqualTo"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s17CustomReflectableP", "isEqualTo"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "Request"]
+- !private ["s23CustomStringConvertibleP", "SwiftDocKey"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "dictionary"]
+- !private ["s23CustomStringConvertibleP", "editorOpen"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEqualTo"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "send"]
+- !private ["s23CustomStringConvertibleP", "toJSON"]
+- !private ["s23CustomStringConvertibleP", "toNSDictionary"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "isEqualTo"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s10DictionaryV", "deinit"]
+- !private ["s10DictionaryV", "isEqualTo"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s9EncodableP", "isEqualTo"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EquatableP", "Request"]
+- !private ["s9EquatableP", "SwiftDocKey"]
+- ["s9EquatableP", "description"]
+- !private ["s9EquatableP", "dictionary"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "syntaxMap"]
+- !private ["s9EquatableP", "toJSON"]
+- !private ["s9EquatableP", "toNSDictionary"]
+- ["s9EquatableP", ""]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEqualTo"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "syntaxMap"]
+- !private ["4Yams17NodeRepresentableP", "isEqualTo"]
+- !private ["4Yams17NodeRepresentableP", "removeValue"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "syntaxMap"]
+- !private ["21SourceKittenFramework7RequestO", "editorOpen"]
+- !private ["21SourceKittenFramework7RequestO", "send"]
+- !private ["s8SequenceP", "isEqualTo"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["21SourceKittenFramework0A16KitRepresentableP", "isEqualTo"]
+- !private ["21SourceKittenFramework0A16KitRepresentableP", "removeValue"]
+- ["21SourceKittenFramework9StructureV", "File"]
+- !private ["21SourceKittenFramework9StructureV", "Request"]
+- ["21SourceKittenFramework9StructureV", "SourceKitRepresentable"]
+- ["21SourceKittenFramework9StructureV", "String"]
+- !private ["21SourceKittenFramework9StructureV", "SwiftDocKey"]
+- ["21SourceKittenFramework9StructureV", "deinit"]
+- ["21SourceKittenFramework9StructureV", "description"]
+- ["21SourceKittenFramework9StructureV", "dictionary"]
+- ["21SourceKittenFramework9StructureV", "init"]
+- !private ["21SourceKittenFramework9StructureV", "toJSON"]
+- !private ["21SourceKittenFramework9StructureV", "toNSDictionary"]
+- !private ["21SourceKittenFramework11SwiftDocKeyO", "deinit"]
+- !private ["21SourceKittenFramework11SwiftDocKeyO", "rawValue"]
+- !private ["21SourceKittenFramework11SwiftDocKeyO", "syntaxMap"]
+- !private ["s10_IndexableP", "isEqualTo"]
+- !private ["s10_IndexableP", "removeValue"]
+- !private ["s14_IndexableBaseP", "isEqualTo"]
+- !private ["s14_IndexableBaseP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "isEqualTo"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s8HashableP"
+- !private "4Yams17NodeRepresentableP"
+- !private "s16RawRepresentableP"
+- !private "21SourceKittenFramework7RequestO"
+- !private "s8SequenceP"
+- !private "21SourceKittenFramework0A16KitRepresentableP"
+- "21SourceKittenFramework9StructureV"
+- !private "21SourceKittenFramework11SwiftDocKeyO"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/Yams.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/CXErrorCode.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/CXCompilationDatabase.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/CXString.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include/CYaml.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Yams.git-8068124914099325722/Sources/CYaml/include/yaml.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/BuildSystem.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/Platform.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/Documentation.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/Index.h"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/Clang_C.git-5715122005051714050/module.modulemap"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/checkouts/SourceKit.git-6033254968535974678/module.modulemap"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "051d10d3e085a3a3bf9099c48d990e13"

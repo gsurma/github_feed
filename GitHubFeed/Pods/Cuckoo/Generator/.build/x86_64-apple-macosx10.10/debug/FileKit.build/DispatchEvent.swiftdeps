@@ -1,0 +1,655 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DispatchFileSystemEvents"
+provides-nominal:
+- "7FileKit08DispatchA12SystemEventsV"
+provides-member:
+- ["7FileKit08DispatchA12SystemEventsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "+="
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "CustomDebugStringConvertible"
+- "CustomStringConvertible"
+- "DispatchFileSystemEvents"
+- "DispatchSource"
+- "OptionSet"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "FileSystemEvent"]
+- !private ["s7CVarArgP", "enumerated"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "enumerated"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "ArrayLiteralElement"]
+- ["s28CustomDebugStringConvertibleP", "Attribute"]
+- ["s28CustomDebugStringConvertibleP", "Create"]
+- ["s28CustomDebugStringConvertibleP", "Delete"]
+- ["s28CustomDebugStringConvertibleP", "DispatchFileSystemEvents"]
+- ["s28CustomDebugStringConvertibleP", "DispatchSource"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Extend"]
+- ["s28CustomDebugStringConvertibleP", "FileSystemEvent"]
+- ["s28CustomDebugStringConvertibleP", "Link"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", "Rename"]
+- ["s28CustomDebugStringConvertibleP", "Revoke"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "Write"]
+- !private ["s28CustomDebugStringConvertibleP", "allEventNames"]
+- !private ["s28CustomDebugStringConvertibleP", "allEvents"]
+- ["s28CustomDebugStringConvertibleP", "contains"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- ["s28CustomDebugStringConvertibleP", "formIntersection"]
+- ["s28CustomDebugStringConvertibleP", "formSymmetricDifference"]
+- ["s28CustomDebugStringConvertibleP", "formUnion"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "insert"]
+- ["s28CustomDebugStringConvertibleP", "intersection"]
+- ["s28CustomDebugStringConvertibleP", "isDisjoint"]
+- ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "isSubset"]
+- ["s28CustomDebugStringConvertibleP", "isSuperset"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "subtract"]
+- ["s28CustomDebugStringConvertibleP", "subtracting"]
+- ["s28CustomDebugStringConvertibleP", "symmetricDifference"]
+- ["s28CustomDebugStringConvertibleP", "union"]
+- ["s28CustomDebugStringConvertibleP", "update"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "ArrayLiteralElement"]
+- ["s23CustomStringConvertibleP", "Attribute"]
+- ["s23CustomStringConvertibleP", "Create"]
+- ["s23CustomStringConvertibleP", "Delete"]
+- ["s23CustomStringConvertibleP", "DispatchFileSystemEvents"]
+- ["s23CustomStringConvertibleP", "DispatchSource"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Extend"]
+- ["s23CustomStringConvertibleP", "FileSystemEvent"]
+- ["s23CustomStringConvertibleP", "Link"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", "Rename"]
+- ["s23CustomStringConvertibleP", "Revoke"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "Write"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "allEventNames"]
+- !private ["s23CustomStringConvertibleP", "allEvents"]
+- ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- ["s23CustomStringConvertibleP", "formIntersection"]
+- ["s23CustomStringConvertibleP", "formSymmetricDifference"]
+- ["s23CustomStringConvertibleP", "formUnion"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "insert"]
+- ["s23CustomStringConvertibleP", "intersection"]
+- ["s23CustomStringConvertibleP", "isDisjoint"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "isSubset"]
+- ["s23CustomStringConvertibleP", "isSuperset"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "subtract"]
+- ["s23CustomStringConvertibleP", "subtracting"]
+- ["s23CustomStringConvertibleP", "symmetricDifference"]
+- ["s23CustomStringConvertibleP", "union"]
+- ["s23CustomStringConvertibleP", "update"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "enumerated"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "subscript"]
+- ["7FileKit08DispatchA12SystemEventsV", "All"]
+- ["7FileKit08DispatchA12SystemEventsV", "ArrayLiteralElement"]
+- ["7FileKit08DispatchA12SystemEventsV", "Attribute"]
+- ["7FileKit08DispatchA12SystemEventsV", "Create"]
+- ["7FileKit08DispatchA12SystemEventsV", "Delete"]
+- ["7FileKit08DispatchA12SystemEventsV", "DispatchFileSystemEvents"]
+- ["7FileKit08DispatchA12SystemEventsV", "DispatchSource"]
+- ["7FileKit08DispatchA12SystemEventsV", "Element"]
+- ["7FileKit08DispatchA12SystemEventsV", "Extend"]
+- ["7FileKit08DispatchA12SystemEventsV", "Link"]
+- ["7FileKit08DispatchA12SystemEventsV", "RawValue"]
+- ["7FileKit08DispatchA12SystemEventsV", "Rename"]
+- ["7FileKit08DispatchA12SystemEventsV", "Revoke"]
+- ["7FileKit08DispatchA12SystemEventsV", "String"]
+- ["7FileKit08DispatchA12SystemEventsV", "UInt"]
+- ["7FileKit08DispatchA12SystemEventsV", "Write"]
+- ["7FileKit08DispatchA12SystemEventsV", "allEventNames"]
+- ["7FileKit08DispatchA12SystemEventsV", "allEvents"]
+- ["7FileKit08DispatchA12SystemEventsV", "contains"]
+- ["7FileKit08DispatchA12SystemEventsV", "debugDescription"]
+- ["7FileKit08DispatchA12SystemEventsV", "deinit"]
+- ["7FileKit08DispatchA12SystemEventsV", "description"]
+- ["7FileKit08DispatchA12SystemEventsV", "formIntersection"]
+- ["7FileKit08DispatchA12SystemEventsV", "formSymmetricDifference"]
+- ["7FileKit08DispatchA12SystemEventsV", "formUnion"]
+- ["7FileKit08DispatchA12SystemEventsV", "init"]
+- ["7FileKit08DispatchA12SystemEventsV", "insert"]
+- ["7FileKit08DispatchA12SystemEventsV", "intersection"]
+- ["7FileKit08DispatchA12SystemEventsV", "isDisjoint"]
+- ["7FileKit08DispatchA12SystemEventsV", "isEmpty"]
+- ["7FileKit08DispatchA12SystemEventsV", "isSubset"]
+- ["7FileKit08DispatchA12SystemEventsV", "isSuperset"]
+- ["7FileKit08DispatchA12SystemEventsV", "rawValue"]
+- ["7FileKit08DispatchA12SystemEventsV", "remove"]
+- ["7FileKit08DispatchA12SystemEventsV", "subtract"]
+- ["7FileKit08DispatchA12SystemEventsV", "subtracting"]
+- ["7FileKit08DispatchA12SystemEventsV", "symmetricDifference"]
+- ["7FileKit08DispatchA12SystemEventsV", "union"]
+- ["7FileKit08DispatchA12SystemEventsV", "update"]
+- ["So14DispatchObjectC", "FileSystemEvent"]
+- ["So14DispatchSourceC", "FileSystemEvent"]
+- ["So30DispatchSourceFileSystemObjectP", "FileSystemEvent"]
+- ["So25DispatchSourceMachReceiveP", "FileSystemEvent"]
+- ["So22DispatchSourceMachSendP", "FileSystemEvent"]
+- ["So28DispatchSourceMemoryPressureP", "FileSystemEvent"]
+- ["So21DispatchSourceProcessP", "FileSystemEvent"]
+- ["So22DispatchSourceProtocolP", "FileSystemEvent"]
+- ["So18DispatchSourceReadP", "FileSystemEvent"]
+- ["So20DispatchSourceSignalP", "FileSystemEvent"]
+- ["So19DispatchSourceTimerP", "FileSystemEvent"]
+- ["So25DispatchSourceUserDataAddP", "FileSystemEvent"]
+- ["So24DispatchSourceUserDataOrP", "FileSystemEvent"]
+- ["So29DispatchSourceUserDataReplaceP", "FileSystemEvent"]
+- ["So19DispatchSourceWriteP", "FileSystemEvent"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "enumerated"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "ArrayLiteralElement"]
+- ["s9EquatableP", "Attribute"]
+- ["s9EquatableP", "Create"]
+- ["s9EquatableP", "Delete"]
+- ["s9EquatableP", "DispatchFileSystemEvents"]
+- ["s9EquatableP", "DispatchSource"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "Extend"]
+- ["s9EquatableP", "FileSystemEvent"]
+- ["s9EquatableP", "Link"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", "Rename"]
+- ["s9EquatableP", "Revoke"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "Write"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allEventNames"]
+- !private ["s9EquatableP", "allEvents"]
+- ["s9EquatableP", "attrib"]
+- ["s9EquatableP", "contains"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "delete"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "extend"]
+- ["s9EquatableP", "formIntersection"]
+- ["s9EquatableP", "formSymmetricDifference"]
+- ["s9EquatableP", "formUnion"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "insert"]
+- ["s9EquatableP", "intersection"]
+- ["s9EquatableP", "isDisjoint"]
+- ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "isSubset"]
+- ["s9EquatableP", "isSuperset"]
+- ["s9EquatableP", "link"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "remove"]
+- ["s9EquatableP", "rename"]
+- ["s9EquatableP", "revoke"]
+- ["s9EquatableP", "subtract"]
+- ["s9EquatableP", "subtracting"]
+- ["s9EquatableP", "symmetricDifference"]
+- ["s9EquatableP", "union"]
+- ["s9EquatableP", "update"]
+- ["s9EquatableP", "write"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Attribute"]
+- ["s25ExpressibleByArrayLiteralP", "Create"]
+- ["s25ExpressibleByArrayLiteralP", "Delete"]
+- ["s25ExpressibleByArrayLiteralP", "DispatchFileSystemEvents"]
+- ["s25ExpressibleByArrayLiteralP", "DispatchSource"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "Extend"]
+- ["s25ExpressibleByArrayLiteralP", "Link"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "Rename"]
+- ["s25ExpressibleByArrayLiteralP", "Revoke"]
+- !private ["s25ExpressibleByArrayLiteralP", "String"]
+- ["s25ExpressibleByArrayLiteralP", "Write"]
+- !private ["s25ExpressibleByArrayLiteralP", "allEventNames"]
+- !private ["s25ExpressibleByArrayLiteralP", "allEvents"]
+- ["s25ExpressibleByArrayLiteralP", "attrib"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "debugDescription"]
+- ["s25ExpressibleByArrayLiteralP", "delete"]
+- ["s25ExpressibleByArrayLiteralP", "description"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- ["s25ExpressibleByArrayLiteralP", "extend"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- ["s25ExpressibleByArrayLiteralP", "link"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "rename"]
+- ["s25ExpressibleByArrayLiteralP", "revoke"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- ["s25ExpressibleByArrayLiteralP", "write"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "attrib"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "delete"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "extend"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "link"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "rawValue"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "rename"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "revoke"]
+- ["So14DispatchSourceC0A0E15FileSystemEventV", "write"]
+- ["s8HashableP", "FileSystemEvent"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "FileSystemEvent"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So16NSObjectProtocolP", "FileSystemEvent"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "isEmpty"]
+- ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "isEmpty"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["So9OS_objectC", "FileSystemEvent"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Attribute"]
+- ["s9OptionSetP", "Create"]
+- ["s9OptionSetP", "Delete"]
+- ["s9OptionSetP", "DispatchFileSystemEvents"]
+- ["s9OptionSetP", "DispatchSource"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "Extend"]
+- ["s9OptionSetP", "Link"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", "Rename"]
+- ["s9OptionSetP", "Revoke"]
+- !private ["s9OptionSetP", "String"]
+- ["s9OptionSetP", "Write"]
+- !private ["s9OptionSetP", "allEventNames"]
+- !private ["s9OptionSetP", "allEvents"]
+- ["s9OptionSetP", "attrib"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "debugDescription"]
+- ["s9OptionSetP", "delete"]
+- ["s9OptionSetP", "description"]
+- ["s9OptionSetP", "extend"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- ["s9OptionSetP", "link"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "rename"]
+- ["s9OptionSetP", "revoke"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- ["s9OptionSetP", "write"]
+- ["s9OptionSetP", ""]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s16RawRepresentableP", "ArrayLiteralElement"]
+- ["s16RawRepresentableP", "Attribute"]
+- ["s16RawRepresentableP", "Create"]
+- ["s16RawRepresentableP", "Delete"]
+- ["s16RawRepresentableP", "DispatchFileSystemEvents"]
+- ["s16RawRepresentableP", "DispatchSource"]
+- ["s16RawRepresentableP", "Element"]
+- ["s16RawRepresentableP", "Extend"]
+- ["s16RawRepresentableP", "Link"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "Rename"]
+- ["s16RawRepresentableP", "Revoke"]
+- !private ["s16RawRepresentableP", "String"]
+- ["s16RawRepresentableP", "Write"]
+- !private ["s16RawRepresentableP", "allEventNames"]
+- !private ["s16RawRepresentableP", "allEvents"]
+- ["s16RawRepresentableP", "attrib"]
+- ["s16RawRepresentableP", "contains"]
+- ["s16RawRepresentableP", "debugDescription"]
+- ["s16RawRepresentableP", "delete"]
+- ["s16RawRepresentableP", "description"]
+- ["s16RawRepresentableP", "extend"]
+- ["s16RawRepresentableP", "formIntersection"]
+- ["s16RawRepresentableP", "formSymmetricDifference"]
+- ["s16RawRepresentableP", "formUnion"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "insert"]
+- ["s16RawRepresentableP", "intersection"]
+- ["s16RawRepresentableP", "isDisjoint"]
+- ["s16RawRepresentableP", "isEmpty"]
+- ["s16RawRepresentableP", "isSubset"]
+- ["s16RawRepresentableP", "isSuperset"]
+- ["s16RawRepresentableP", "link"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "remove"]
+- ["s16RawRepresentableP", "rename"]
+- ["s16RawRepresentableP", "revoke"]
+- ["s16RawRepresentableP", "subtract"]
+- ["s16RawRepresentableP", "subtracting"]
+- ["s16RawRepresentableP", "symmetricDifference"]
+- ["s16RawRepresentableP", "union"]
+- ["s16RawRepresentableP", "update"]
+- ["s16RawRepresentableP", "write"]
+- ["s16RawRepresentableP", ""]
+- !private ["7FileKit8ReadableP", "enumerated"]
+- ["7FileKit8ReadableP", "init"]
+- !private ["7FileKit8ReadableP", "isEmpty"]
+- !private ["7FileKit8ReadableP", "subscript"]
+- !private ["s8SequenceP", "enumerated"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "subscript"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Attribute"]
+- ["s10SetAlgebraP", "Create"]
+- ["s10SetAlgebraP", "Delete"]
+- ["s10SetAlgebraP", "DispatchFileSystemEvents"]
+- ["s10SetAlgebraP", "DispatchSource"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "Extend"]
+- ["s10SetAlgebraP", "Link"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", "Rename"]
+- ["s10SetAlgebraP", "Revoke"]
+- !private ["s10SetAlgebraP", "String"]
+- ["s10SetAlgebraP", "Write"]
+- !private ["s10SetAlgebraP", "allEventNames"]
+- !private ["s10SetAlgebraP", "allEvents"]
+- ["s10SetAlgebraP", "attrib"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "debugDescription"]
+- ["s10SetAlgebraP", "delete"]
+- ["s10SetAlgebraP", "description"]
+- ["s10SetAlgebraP", "extend"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- ["s10SetAlgebraP", "link"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "rename"]
+- ["s10SetAlgebraP", "revoke"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- ["s10SetAlgebraP", "write"]
+- ["s10SetAlgebraP", ""]
+- !private ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["7FileKit8WritableP", "enumerated"]
+- ["7FileKit8WritableP", "init"]
+- !private ["7FileKit8WritableP", "isEmpty"]
+- !private ["7FileKit8WritableP", "subscript"]
+- !private ["7FileKit19WritableConvertibleP", "enumerated"]
+- !private ["7FileKit19WritableConvertibleP", "subscript"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "enumerated"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "enumerated"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "enumerated"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileSystemEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["s17_MutableIndexableP", "enumerated"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "enumerated"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "enumerated"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "7FileKit08DispatchA12SystemEventsV"
+- "So14DispatchObjectC"
+- "So14DispatchSourceC"
+- "So30DispatchSourceFileSystemObjectP"
+- "So25DispatchSourceMachReceiveP"
+- "So22DispatchSourceMachSendP"
+- "So28DispatchSourceMemoryPressureP"
+- "So21DispatchSourceProcessP"
+- "So22DispatchSourceProtocolP"
+- "So18DispatchSourceReadP"
+- "So20DispatchSourceSignalP"
+- "So19DispatchSourceTimerP"
+- "So25DispatchSourceUserDataAddP"
+- "So24DispatchSourceUserDataOrP"
+- "So29DispatchSourceUserDataReplaceP"
+- "So19DispatchSourceWriteP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So14DispatchSourceC0A0E15FileSystemEventV"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "7FileKit8ReadableP"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7FileKit8WritableP"
+- !private "7FileKit19WritableConvertibleP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+interface-hash: "7ffd6cb5cea81927bb04eaa731190a1e"

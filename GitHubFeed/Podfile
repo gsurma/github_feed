@@ -1,0 +1,23 @@
+target 'GitHubFeed' do
+  use_frameworks!
+
+  pod 'SwiftLint'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'ModelMapper', '~> 6.0.0'
+  pod 'Moya/RxSwift', '~> 8.0.5'
+  pod 'Moya-ModelMapper/RxSwift'
+  pod 'Kingfisher'
+
+  target 'GitHubFeedUnitTests' do
+    inherit! :search_paths
+    pod 'Cuckoo'
+    pod 'RxTest'
+  end
+
+  target 'GitHubFeedMonkeyTests' do
+      inherit! :search_paths
+      pod 'SwiftMonkey'
+  end
+end

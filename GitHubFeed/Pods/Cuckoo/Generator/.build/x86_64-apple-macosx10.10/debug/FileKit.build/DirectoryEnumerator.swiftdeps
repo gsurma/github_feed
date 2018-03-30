@@ -1,0 +1,144 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DirectoryEnumerator"
+provides-nominal:
+- "7FileKit19DirectoryEnumeratorV"
+provides-member:
+- ["7FileKit19DirectoryEnumeratorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "DirectoryEnumerator"
+- "FileManager"
+- "IteratorProtocol"
+- "Path"
+- !private "String"
+depends-member:
+- ["s7CVarArgP", "DirectoryEnumerator"]
+- !private ["s7CVarArgP", "enumerator"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "nextObject"]
+- !private ["s7CVarArgP", "skipDescendants"]
+- ["s28CustomDebugStringConvertibleP", "DirectoryEnumerator"]
+- !private ["s28CustomDebugStringConvertibleP", "_safeRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerator"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "nextObject"]
+- !private ["s28CustomDebugStringConvertibleP", "skipDescendants"]
+- ["s23CustomStringConvertibleP", "DirectoryEnumerator"]
+- !private ["s23CustomStringConvertibleP", "_safeRawValue"]
+- !private ["s23CustomStringConvertibleP", "enumerator"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "nextObject"]
+- !private ["s23CustomStringConvertibleP", "skipDescendants"]
+- ["7FileKit19DirectoryEnumeratorV", "Element"]
+- ["7FileKit19DirectoryEnumeratorV", "FileManager"]
+- ["7FileKit19DirectoryEnumeratorV", "Path"]
+- !private ["7FileKit19DirectoryEnumeratorV", "String"]
+- !private ["7FileKit19DirectoryEnumeratorV", "_enumerator"]
+- !private ["7FileKit19DirectoryEnumeratorV", "_path"]
+- ["7FileKit19DirectoryEnumeratorV", "deinit"]
+- ["7FileKit19DirectoryEnumeratorV", "init"]
+- ["7FileKit19DirectoryEnumeratorV", "next"]
+- ["7FileKit19DirectoryEnumeratorV", "skipDescendants"]
+- !private ["So19DirectoryEnumeratorC", "nextObject"]
+- !private ["So19DirectoryEnumeratorC", "skipDescendants"]
+- ["s9EquatableP", "DirectoryEnumerator"]
+- !private ["s9EquatableP", "_safeRawValue"]
+- !private ["s9EquatableP", "enumerator"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "nextObject"]
+- !private ["s9EquatableP", "skipDescendants"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_safeRawValue"]
+- !private ["s26ExpressibleByStringLiteralP", "_safeRawValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_safeRawValue"]
+- ["So11FileManagerC", "DirectoryEnumerator"]
+- !private ["So11FileManagerC", "enumerator"]
+- !private ["So11FileManagerC", "init"]
+- ["s8HashableP", "DirectoryEnumerator"]
+- !private ["s8HashableP", "_safeRawValue"]
+- !private ["s8HashableP", "enumerator"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "nextObject"]
+- !private ["s8HashableP", "skipDescendants"]
+- ["s16IteratorProtocolP", "Element"]
+- !private ["s16IteratorProtocolP", "FileManager"]
+- !private ["s16IteratorProtocolP", "_enumerator"]
+- !private ["s16IteratorProtocolP", "_path"]
+- ["s16IteratorProtocolP", "next"]
+- ["s16IteratorProtocolP", ""]
+- !private ["So12NSEnumeratorC", "nextObject"]
+- !private ["So12NSEnumeratorC", "skipDescendants"]
+- !private ["So17NSFastEnumerationP", "nextObject"]
+- !private ["So17NSFastEnumerationP", "skipDescendants"]
+- ["So8NSObjectC", "DirectoryEnumerator"]
+- !private ["So8NSObjectC", "enumerator"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "nextObject"]
+- !private ["So8NSObjectC", "skipDescendants"]
+- ["So16NSObjectProtocolP", "DirectoryEnumerator"]
+- !private ["So16NSObjectProtocolP", "enumerator"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "nextObject"]
+- !private ["So16NSObjectProtocolP", "skipDescendants"]
+- !private ["7FileKit4PathV", "_safeRawValue"]
+- !private ["s16RawRepresentableP", "_safeRawValue"]
+- !private ["s8SequenceP", "_safeRawValue"]
+- !private ["s8SequenceP", "nextObject"]
+- !private ["s8SequenceP", "skipDescendants"]
+- !private ["s33_ExpressibleByStringInterpolationP", "_safeRawValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DirectoryEnumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skipDescendants"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7FileKit19DirectoryEnumeratorV"
+- !private "So19DirectoryEnumeratorC"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "So11FileManagerC"
+- "s8HashableP"
+- "s16IteratorProtocolP"
+- !private "So12NSEnumeratorC"
+- !private "So17NSFastEnumerationP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "7FileKit4PathV"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+interface-hash: "f687b6e985cbcf8544b2d1666558ecac"

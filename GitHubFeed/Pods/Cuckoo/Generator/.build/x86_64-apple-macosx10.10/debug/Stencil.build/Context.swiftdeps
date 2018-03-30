@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Context"
+provides-nominal:
+- "7Stencil7ContextC"
+provides-member:
+- ["7Stencil7ContextC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Context"
+- !private "Dictionary"
+- "Environment"
+- "String"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "popLast"]
+- !private ["Sa", "reversed"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "popLast"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "popLast"]
+- !private ["s7CVarArgP", "reversed"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "updateValue"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "popLast"]
+- !private ["s10CollectionP", "reversed"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "updateValue"]
+- !private ["7Stencil7ContextC", "Array"]
+- ["7Stencil7ContextC", "Environment"]
+- ["7Stencil7ContextC", "String"]
+- ["7Stencil7ContextC", "deinit"]
+- ["7Stencil7ContextC", "dictionaries"]
+- ["7Stencil7ContextC", "environment"]
+- ["7Stencil7ContextC", "flatten"]
+- ["7Stencil7ContextC", "init"]
+- !private ["7Stencil7ContextC", "pop"]
+- ["7Stencil7ContextC", "push"]
+- ["7Stencil7ContextC", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "popLast"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "popLast"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "popLast"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "popLast"]
+- !private ["s9DecodableP", "reversed"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "updateValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s10DictionaryV", "updateValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "popLast"]
+- !private ["s9EncodableP", "reversed"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "updateValue"]
+- !private ["7Stencil11EnvironmentV", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "popLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "updateValue"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "popLast"]
+- !private ["s17MutableCollectionP", "reversed"]
+- !private ["7Stencil12NormalizableP", "append"]
+- !private ["7Stencil12NormalizableP", "init"]
+- !private ["7Stencil12NormalizableP", "popLast"]
+- !private ["7Stencil12NormalizableP", "reversed"]
+- !private ["7Stencil12NormalizableP", "subscript"]
+- !private ["7Stencil12NormalizableP", "updateValue"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "popLast"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "popLast"]
+- !private ["s26RangeReplaceableCollectionP", "reversed"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "popLast"]
+- !private ["s8SequenceP", "reversed"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "updateValue"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "popLast"]
+- !private ["s14_ArrayProtocolP", "reversed"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "popLast"]
+- !private ["s23_BidirectionalIndexableP", "reversed"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "popLast"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "popLast"]
+- !private ["s10_IndexableP", "reversed"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "updateValue"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "popLast"]
+- !private ["s14_IndexableBaseP", "reversed"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "updateValue"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "popLast"]
+- !private ["s17_MutableIndexableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "popLast"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "updateValue"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "popLast"]
+- !private ["s22_RandomAccessIndexableP", "reversed"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "popLast"]
+- !private ["s26_RangeReplaceableIndexableP", "reversed"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "7Stencil7ContextC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "7Stencil11EnvironmentV"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s17MutableCollectionP"
+- !private "7Stencil12NormalizableP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/PathKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+interface-hash: "8250ec7c78d1345443f7f50407182757"

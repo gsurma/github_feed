@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "So6NSDataC"
+provides-member:
+- ["So6NSDataC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FileKitError"
+- "NSData"
+- "Path"
+- "ReadableWritable"
+- "WritableToFile"
+depends-member:
+- !private ["s7CVarArgP", "FileKitError"]
+- ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "read"]
+- ["s7CVarArgP", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "FileKitError"]
+- ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "_safeRawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "read"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s23CustomStringConvertibleP", "FileKitError"]
+- ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "_safeRawValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "readFromFileFail"]
+- ["s23CustomStringConvertibleP", "write"]
+- !private ["s9EquatableP", "FileKitError"]
+- ["s9EquatableP", "ReadingOptions"]
+- !private ["s9EquatableP", "_safeRawValue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "read"]
+- ["s9EquatableP", "write"]
+- !private ["s5ErrorP", "readFromFileFail"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_safeRawValue"]
+- !private ["s26ExpressibleByStringLiteralP", "_safeRawValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_safeRawValue"]
+- !private ["7FileKit0aB5ErrorO", "deinit"]
+- !private ["7FileKit0aB5ErrorO", "readFromFileFail"]
+- !private ["s8HashableP", "FileKitError"]
+- ["s8HashableP", "ReadingOptions"]
+- !private ["s8HashableP", "_safeRawValue"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "read"]
+- ["s8HashableP", "write"]
+- !private ["So8NSCodingP", "FileKitError"]
+- ["So8NSCodingP", "ReadingOptions"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "read"]
+- ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "FileKitError"]
+- ["So9NSCopyingP", "ReadingOptions"]
+- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "read"]
+- ["So9NSCopyingP", "write"]
+- !private ["So6NSDataC", "FileKitError"]
+- ["So6NSDataC", "NSData"]
+- ["So6NSDataC", "Path"]
+- ["So6NSDataC", "ReadingOptions"]
+- ["So6NSDataC", "deinit"]
+- !private ["So6NSDataC", "init"]
+- ["So6NSDataC", "read"]
+- ["So6NSDataC", "write"]
+- !private ["So16NSMutableCopyingP", "FileKitError"]
+- ["So16NSMutableCopyingP", "ReadingOptions"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So16NSMutableCopyingP", "read"]
+- ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "FileKitError"]
+- ["So8NSObjectC", "NSData"]
+- ["So8NSObjectC", "Path"]
+- ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "read"]
+- ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "FileKitError"]
+- ["So16NSObjectProtocolP", "ReadingOptions"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "read"]
+- ["So16NSObjectProtocolP", "write"]
+- !private ["So14NSSecureCodingP", "FileKitError"]
+- ["So14NSSecureCodingP", "ReadingOptions"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "read"]
+- ["So14NSSecureCodingP", "write"]
+- !private ["7FileKit4PathV", "_safeRawValue"]
+- !private ["s16RawRepresentableP", "_safeRawValue"]
+- !private ["7FileKit8ReadableP", "FileKitError"]
+- ["7FileKit8ReadableP", "ReadingOptions"]
+- !private ["7FileKit8ReadableP", "init"]
+- ["7FileKit8ReadableP", "read"]
+- ["7FileKit8ReadableP", "write"]
+- ["7FileKit8ReadableP", ""]
+- !private ["s8SequenceP", "_safeRawValue"]
+- !private ["7FileKit8WritableP", "FileKitError"]
+- ["7FileKit8WritableP", "ReadingOptions"]
+- !private ["7FileKit8WritableP", "init"]
+- ["7FileKit8WritableP", "read"]
+- ["7FileKit8WritableP", "write"]
+- ["7FileKit8WritableP", ""]
+- !private ["7FileKit010WritableToA0P", "FileKitError"]
+- ["7FileKit010WritableToA0P", "ReadingOptions"]
+- !private ["7FileKit010WritableToA0P", "init"]
+- ["7FileKit010WritableToA0P", "read"]
+- ["7FileKit010WritableToA0P", "write"]
+- ["7FileKit010WritableToA0P", ""]
+- !private ["s33_ExpressibleByStringInterpolationP", "_safeRawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "FileKitError"]
+- ["s35_HasCustomAnyHashableRepresentationP", "ReadingOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "read"]
+- ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileKitError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "read"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7FileKit0aB5ErrorO"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So6NSDataC"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- !private "7FileKit4PathV"
+- !private "s16RawRepresentableP"
+- "7FileKit8ReadableP"
+- !private "s8SequenceP"
+- "7FileKit8WritableP"
+- "7FileKit010WritableToA0P"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/grzegorzsurma/Repositories/private/github_feed/GitHubFeed/Pods/Cuckoo/Generator/.build/x86_64-apple-macosx10.10/debug/CYaml.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+interface-hash: "abc2975953ac4f96d8ec1d1074d28ae5"

@@ -1,0 +1,46 @@
+# Template information section
+name: "generamba-viper-template"
+summary: "Viper modules made on experience of two swifty viper implementations"
+author: "Grzegorz Surma"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+
+# Contract
+- {name: Contract.swift, path: Code/contract.swift.liquid}
+
+# View layer
+- {name: ViewController.swift, path: Code/viewcontroller.swift.liquid}
+
+# Presenter layer
+- {name: Presenter.swift, path: Code/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor.swift, path: Code/interactor.swift.liquid}
+
+# Routing layer
+- {name: Routing.swift, path: Code/routing.swift.liquid}
+
+# Starter
+- {name: Starter.swift, path: Code/starter.swift.liquid}
+
+# Storyboard
+- {name: .storyboard, path: Code/storyboard.storyboard.liquid}
+
+# The declarations for test files
+test_files:
+
+# View tests
+- {name: ViewTests.swift, path: Tests/view_tests.swift.liquid}
+
+# Presenter tests
+- {name: PresenterTests.swift, path: Tests/presenter_tests.swift.liquid}
+
+# Interactor tests
+- {name: InteractorTests.swift, path: Tests/interactor_tests.swift.liquid}
+
+# Routing tests
+- {name: RoutingTests.swift, path: Tests/routing_tests.swift.liquid}
