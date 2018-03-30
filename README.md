@@ -1,5 +1,6 @@
-# GitHub Feed
-iOS app
+#GitHub Feed
+
+iOS demo app
 
 ##About
 
