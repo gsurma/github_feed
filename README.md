@@ -1,3 +1,7 @@
+<h3 align="center">
+  <img src="assets/github_feed_icon_web.png" width="300">
+</h3>
+
 # GitHub Feed
 
 iOS demo app
